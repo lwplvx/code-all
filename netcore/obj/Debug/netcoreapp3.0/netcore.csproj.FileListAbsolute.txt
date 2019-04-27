@@ -1,0 +1,15 @@
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore.deps.json
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore.runtimeconfig.json
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore.runtimeconfig.dev.json
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore.dll
+/Users/luweiping/Desktop/MyProject/netcore/bin/Debug/netcoreapp3.0/netcore.pdb
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.csprojAssemblyReference.cache
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.csproj.CoreCompileInputs.cache
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.RazorAssemblyInfo.cache
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.RazorAssemblyInfo.cs
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.AssemblyInfoInputs.cache
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.AssemblyInfo.cs
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.RazorTargetAssemblyInfo.cache
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.dll
+/Users/luweiping/Desktop/MyProject/netcore/obj/Debug/netcoreapp3.0/netcore.pdb
