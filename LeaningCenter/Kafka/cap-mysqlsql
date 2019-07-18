@@ -1,0 +1,5 @@
+
+USE `zhdj71-cap`; 
+
+
+select * from cap.published;

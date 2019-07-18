@@ -1,11 +1,9 @@
 # MySql
 
-## 查看mysql进程有两种方法
-
-1.进入mysql/bin目录下输入mysqladmin processlist;
-
-2.启动mysql，输入show processlist;
-
-如果有SUPER权限，则可以看到全部的线程，否则，只能看到自己发起的线程（这是指，当前对应的MySQL帐户运行的线程）。
-
-    mysql> show processlist;
+* [查看mysql进程](mysql-process.md)
+* [Docker 启动 Mysql](docker-run-mysql.md)
+* [MySQL5.7 添加用户、删除用户与授权](mysql5-7-add-user.md)
+* [Windows上安装多个MySQL实例](https://blog.csdn.net/u013235478/article/details/50688133)
+  
+* [RedHat 安装MySQL5.7](https://blog.csdn.net/A__java___A/article/details/17614797)
+* [linux下安装mysql（rpm文件安装）](https://www.cnblogs.com/xiaxiaoxu/p/9978976.html)
