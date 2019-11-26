@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "SSH.Net"; 
+}
+@model List<string>
+<h1>@ViewData["Title"]</h1>
+
+<p>学用 SSH.Net 发布.</p>
+
+<div> 
+    @foreach (var item in Model)
+    {
+        <div>@item</div>
+    }
+</div>

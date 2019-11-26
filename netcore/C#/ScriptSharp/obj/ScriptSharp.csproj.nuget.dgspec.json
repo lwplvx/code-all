@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\MyProject\\code-all\\netcore\\C#\\ScriptSharp\\ScriptSharp.csproj": {}
+    "/Users/luweiping/Desktop/MyProject/code-all/netcore/C#/ScriptSharp/ScriptSharp.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\MyProject\\code-all\\netcore\\C#\\ScriptSharp\\ScriptSharp.csproj": {
+    "/Users/luweiping/Desktop/MyProject/code-all/netcore/C#/ScriptSharp/ScriptSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\MyProject\\code-all\\netcore\\C#\\ScriptSharp\\ScriptSharp.csproj",
+        "projectUniqueName": "/Users/luweiping/Desktop/MyProject/code-all/netcore/C#/ScriptSharp/ScriptSharp.csproj",
         "projectName": "ScriptSharp",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\MyProject\\code-all\\netcore\\C#\\ScriptSharp\\ScriptSharp.csproj",
-        "packagesPath": "C:\\Users\\luweiping\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\MyProject\\code-all\\netcore\\C#\\ScriptSharp\\obj\\",
+        "projectPath": "/Users/luweiping/Desktop/MyProject/code-all/netcore/C#/ScriptSharp/ScriptSharp.csproj",
+        "packagesPath": "/Users/luweiping/.nuget/packages/",
+        "outputPath": "/Users/luweiping/Desktop/MyProject/code-all/netcore/C#/ScriptSharp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\luweiping\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/luweiping/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

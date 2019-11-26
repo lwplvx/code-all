@@ -22,6 +22,7 @@ namespace TenantDemo.DB.Entities
             builder.Property(p => p.TenantId).HasColumnType("CHAR(36)");
             builder.Property(p => p.Title);
             builder.Property(p => p.Content);
+            builder.Property(p => p.IsDeleted).HasColumnType("BIT");
 
             // filter
             builder.HasQueryFilter(p => !p.IsDeleted);

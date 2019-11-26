@@ -4,35 +4,31 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using TenantDemo.DB;
 using TenantDemo.Models;
+using TenantDemo.Repository;
 
 namespace TenantDemo.Controllers
 {
-    public class HomeController : Controller
+    public class BlogController : Controller
     {
-        IBlogRepository _blogRepository;
-        public BlogController(IBlogRepository blogRepository)
-        {
-            _blogRepository = blogRepository;
-        }
+        readonly IBlogRepository _blogRepository;
+        public BlogController(IBlogRepository blogRepository) => _blogRepository = blogRepository;
 
         public async Task<IActionResult> Index()
         {
             var blogs = await _blogRepository.GetBlogs();
-            var dtoBlogs = blogs.ProjectTo<BlogDTO>();
-
-            return View(dtoBlogs.ToList());
-        }
-
-        public IActionResult Privacy()
-        {
+            //     var dtoBlogs = blogs.ProjectTo<BlogDTO>();
+            var blogList = blogs.ToList();
+            ViewBag.Name = blogList.First().Name;
             return View();
         }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public async Task<IActionResult> InitDB([FromServices] TenantDbContext dbContext)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+           var res= await Task.FromResult( dbContext.Database.EnsureCreated());
+
+            return Json(res);
         }
+
     }
 }

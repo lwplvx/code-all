@@ -1,0 +1,14 @@
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\Fbric.deps.json
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\Fbric.runtimeconfig.json
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\Fbric.runtimeconfig.dev.json
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\Fbric.dll
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\Fbric.pdb
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\SFbric.dll
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\bin\Release\netcoreapp2.2\SFbric.pdb
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.csprojAssemblyReference.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.csproj.CoreCompileInputs.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.AssemblyInfoInputs.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.AssemblyInfo.cs
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.csproj.CopyComplete
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.dll
+D:\workspaces\code-all\netcore\C#\SharpFbric\Fbric\obj\Release\netcoreapp2.2\Fbric.pdb

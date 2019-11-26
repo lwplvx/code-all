@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{97B5A9C1-BE5E-4C1C-9E60-598A803ED117}|Default">
+  <MonoDevelop.Ide.ItemProperties.TenantDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="DB/EntityConfiguration/BlogConfiguration.cs">
+    <Files>
+      <File FileName="DB/TenantDbContext.cs" Line="83" Column="43" />
+      <File FileName="DB/TenantProvider.cs" />
+      <File FileName="DB/EntityConfiguration/PostConfiguration.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="DB/EntityConfiguration/BlogConfiguration.cs" Line="38" Column="42" />
+      <File FileName="Domain/Entities/Blog.cs" />
+      <File FileName="Domain/Entities/Post.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TenantDemo" expanded="True">
+            <Node name="TenantDemo" expanded="True">
+              <Node name="DB" expanded="True">
+                <Node name="EntityConfiguration" expanded="True">
+                  <Node name="BlogConfiguration.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Repository" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

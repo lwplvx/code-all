@@ -1,0 +1,9 @@
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\bin\Release\netstandard2.0\SFbric.deps.json
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\bin\Release\netstandard2.0\SFbric.dll
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\bin\Release\netstandard2.0\SFbric.pdb
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.csprojAssemblyReference.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.csproj.CoreCompileInputs.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.AssemblyInfoInputs.cache
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.AssemblyInfo.cs
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.dll
+D:\workspaces\code-all\netcore\C#\SharpFbric\SFbric\obj\Release\netstandard2.0\SFbric.pdb

@@ -26,6 +26,8 @@ namespace TenantDemo.DB.Entities
             builder.Property(p => p.Name).HasColumnType("VARCHAR(200)");
             builder.Property(p => p.CreatedTime)
                   .HasColumnType("DATETIME");//.HasDefaultValueSql("GATEDATE()"); 
+            builder.Property(p => p.IsDeleted).HasColumnType("BIT");
+
 
             // filter
             builder.HasQueryFilter(p => !p.IsDeleted);

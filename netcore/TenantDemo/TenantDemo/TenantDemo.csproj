@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.1.0" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.16" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\" />
+    <Folder Include="Views\Blog\" />
+    <Folder Include="Domain\" />
+    <Folder Include="Domain\Entities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DB\Entities\BlogConfiguration.cs" />
+    <Compile Remove="DB\Entities\PostConfiguration.cs" />
+    <Compile Remove="DB\Entities\BaseEntity.cs" />
+    <Compile Remove="DB\Entities\EntityTypeProvider.cs" />
+  </ItemGroup>
+</Project>

@@ -11,8 +11,9 @@
           <Node name="ScriptSharp" expanded="True">
             <Node name="ScriptSharp" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="SdkDependencies" expanded="True" selected="True" />
+                <Node name="SdkDependencies" expanded="True" />
               </Node>
+              <Node name="EvalGuy.cs" selected="True" />
             </Node>
           </Node>
         </State>

@@ -6,22 +6,22 @@ using TenantDemo.DB.Entities;
 
 namespace TenantDemo.Repository
 {
-    public interface IBlogRepository
+    public interface IPostRepository
     {
-        Task<IQueryable<Blog>> GetBlogs();
+        Task<IQueryable<Post>> GetPosts();
     }
 
-    public class BlogRepository:IBlogRepository
+    public class PostRepository : IPostRepository
     {
         TenantDbContext _context;
-        public BlogRepository(TenantDbContext context)
+        public PostRepository(TenantDbContext context)
         {
             _context = context;
         }
 
-        public async Task<IQueryable<Blog>> GetBlogs()
+        public async Task<IQueryable<Post>> GetPosts()
         {
-            var blogs = _context.Blogs;
+            var blogs = _context.Posts;
             return await Task.FromResult(blogs);
         }
     }
