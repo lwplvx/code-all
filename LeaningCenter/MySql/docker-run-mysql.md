@@ -1,3 +1,6 @@
+# Docker 安装 Mysql
+docker pull mysql:5.7
+
 # Docker Mysql 启动
 
 sudo docker run --name pwc-mysql -e MYSQL_ROOT_PASSWORD=Cloud@1234 -p 3307:3306 -d mysql
