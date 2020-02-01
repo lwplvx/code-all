@@ -5,7 +5,8 @@
 
 查找Docker Hub上的nginx镜像
 
-    w3cschool@w3cschool:~/nginx$ docker search nginx
+    docker search nginx
+    
     NAME                      DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
     nginx                     Official build of Nginx.                        3260      [OK]       
     jwilder/nginx-proxy       Automated Nginx reverse proxy for docker c...   674                  [OK]
@@ -19,7 +20,7 @@
     ...
 这里我们拉取官方的镜像
 
-    w3cschool@w3cschool:~/nginx$ docker pull nginx
+    docker pull nginx
 等待下载完成后，我们就可以在本地镜像列表里查到REPOSITORY为nginx的镜像。
 
 ## 使用nginx镜像
