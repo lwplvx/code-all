@@ -10,9 +10,7 @@
 
 二.授权:
 
-命令:
-
-    GRANT privileges ON databasename.tablename TO 'username'@'host'
+命令:GRANT privileges ON databasename.tablename TO 'username'@'host'
 
 PS: privileges - 用户的操作权限,如SELECT , INSERT , UPDATE 等(详细列表见该文最后面).如果要授予所的权限则使用ALL.;databasename - 数据库名,tablename-表名,如果要授予该用户对所有数据库和表的相应操作权限则可用*表示, 如*.*.
 
