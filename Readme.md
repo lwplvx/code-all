@@ -6,4 +6,4 @@
 
 * [Linux](LeaningCenter/Linux/Readme.md)
 
-* [Linux](LeaningCenter/MySql/Readme.md)
+* [MySql](LeaningCenter/MySql/Readme.md)
